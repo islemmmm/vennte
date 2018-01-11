@@ -32,6 +32,7 @@ public class Acceuil extends AppCompatActivity
                     if (ActivityCompat.checkSelfPermission(Acceuil.this,
                             Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED)
                     {
+                        
                         return;
                     }
                     startActivity(callIntent);
